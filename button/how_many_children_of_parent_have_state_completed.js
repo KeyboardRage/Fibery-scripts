@@ -1,8 +1,8 @@
 /*
 Contacts (App):
-    - Customer (Type)
+    - Customer (Type) (with field named 'Orders')
 Customer orders (App):
-    - Order (Type) (field named 'Orders')
+    - Order (Type) (with field 'Customer')
 
 I click a button on an Order and want to see how many of Customer's Orders are completed.
 */
