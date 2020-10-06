@@ -54,3 +54,67 @@ context.getService('http').postAsync(`https://${workspace}.fibery.io/api/command
 		}
 	}]
 });
+
+/*
+Sample response (response is returned as string): 
+
+[
+    {
+        "success": true,
+        "result": [
+            {
+                "user/{collectionName}": [
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 1 - Product 1",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 2 - Product 2",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 3 - Product 3",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 4 - Product 4",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 5 - Product 5",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 6 - Product 6",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 7 - Product 7",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    },
+                    {
+                        "{collectionAppName}/name": "Firstname M. Lastname - 8 - Product 8",
+                        "workflow/state": {
+                            "enum/name": "✔ Completed"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
+*/
